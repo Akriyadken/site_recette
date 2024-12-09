@@ -1,0 +1,127 @@
+*{
+    overflow: auto; 
+}
+
+body {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+           }
+    p.cat{
+        background-color: black;
+        color: white;
+        display: inline-block;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        padding: 8PX 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+        
+        
+  
+    div.contenu{
+        background-color: rgb(155, 211, 192);
+        margin: 0px 10% 100px 10%;
+        padding: 30px;
+        min-width: auto;
+        box-shadow: 0px 0px 5px 8px grey;
+        
+          }
+
+    h1,h2{
+        text-align: center;
+    }
+    p.description{
+      text-align: center;
+      max-width: 100%;
+      display: inline-block;
+
+    }
+    div.description{
+        text-align: center;
+    
+    }
+    div.cat{
+        margin-bottom: -20px;
+    }
+    div.horizontalligne{
+        width: 30%;
+        height: 0.5px;
+        background-color: black;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-width: 0.2px ;
+       
+    }
+    div.info{
+        position: relative;
+       
+    }
+    table.info{
+        position: absolute;
+        bottom:0; width: 100%;color: white;height:80px; background-color: hwb(216 23% 43% / 0.438);}
+
+    img.info{
+        object-fit: cover;
+        width: 100%; height: 400px;
+        alt:"poulet curry";
+        min-height: 200px;
+        background-color: grey;
+          }
+          
+    div.colonne {
+        width: 50%;
+    }
+          
+    div.colonne1{
+        display: inline-block;
+    }
+    
+    div.colonne h2{
+            text-align: center;
+            border-bottom: 5px solid rgb(81, 140, 167);
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-right:20%;
+            margin-left: auto;
+            
+    }
+
+    div.colonne2{
+        float: right;
+               
+    }
+    p.colonne3{
+        border: 1px solid;border-color: rgb(81, 140, 167);
+        text-align: center;
+        margin-right: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        font-size: large;
+        align-content: center;
+
+    }
+    table.miseenformeprepa{
+        padding: 5px 0;
+        margin-right: 20%;
+        }
+
+        p.numero {
+            background-color: rgb(81, 140, 167);
+            color: azure;
+            border-radius: 50%;
+            padding: 10px;
+            font-weight: bold;
+            box-sizing: border-box;
+
+        }
+        table.miseenformeprepa tr{
+            height: 10px;
+            }
+        
+        
